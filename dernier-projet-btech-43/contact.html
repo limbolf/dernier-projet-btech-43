@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FretFinder</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Vente d'instruments de musique" />
+    <meta name="keywords" content="HTML CSS JS GUITARE BATTERIE BASSE" />
+    <meta name="author" content="Vincent" />
+    <link rel="icon" href="favicon-16x16.png" alt="pinterest" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="btn-nav">Accueil</a>
+      <a href="guitares.html" class="btn-nav">Guitares</a>
+      <a href="basses.html" class="btn-nav">Basses</a>
+      <a href="batteries.html" class="btn-nav">Batteries</a>
+      <a href="utilitaire.html" class="btn-nav">Utilitaire</a>
+      <a href="abonnement.html" class="btn-nav">Abonnements</a>
+      <a href="contact.html" class="btn-nav">Contact</a>
+    </nav>
+
+    <nav class="tel">
+      <a href="index.html" class="btn-nav-tel">Accueil</a>
+    </nav>
+
+    <div class="form-container">
+      <form id="form">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="prenom">Prénom</label>
+        <input type="text" name="surname" />
+        <label for="nom-de-famille"> Adresse mail</label>
+        <input type="email" name="email" />
+        <button type="submit">Envoyer</button>
+      </form>
+      <div id="remerciements" class="hidden message">Merci !</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
